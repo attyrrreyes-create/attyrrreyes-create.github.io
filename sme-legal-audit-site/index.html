@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SME Legal Exposure Audit — Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>SME Legal Exposure Audit</h1>
+    <p class="subtitle">Quick online self-audit for Philippine SMEs — identify risk and get next steps.</p>
+  </header>
+
+  <main class="container">
+    <form id="audit-form">
+      <div id="questions"></div>
+
+      <div class="actions">
+        <button type="button" id="calculate">Calculate Risk</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+
+    <section id="results" class="hidden">
+      <h2>Audit Results</h2>
+      <div id="domain-results"></div>
+      <div id="overall-result"></div>
+      <div class="result-actions">
+        <button id="print">Print / Save as PDF</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>For informational purposes only. Not legal advice.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

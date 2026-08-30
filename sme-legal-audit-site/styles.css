@@ -1,0 +1,27 @@
+:root{
+  --accent:#0b5d88;
+  --muted:#6b7280;
+  --card:#ffffff;
+  --bg:#f6f7fb;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:var(--bg);color:#111}
+.site-header{background:linear-gradient(90deg,var(--accent),#2b8fb8);color:white;padding:28px 16px;text-align:center}
+.site-header h1{margin:0;font-size:1.6rem}
+.subtitle{opacity:.95;margin-top:6px}
+.container{max-width:980px;margin:28px auto;padding:18px}
+.card{background:var(--card);border-radius:8px;padding:16px;box-shadow:0 1px 4px rgba(15,23,42,0.06);margin-bottom:16px}
+.question{margin-bottom:12px}
+.domain-title{font-weight:700;margin:8px 0}
+.options label{margin-right:12px}
+.actions{margin-top:12px}
+button{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:6px;cursor:pointer}
+button[type=reset]{background:#6b7280}
+.hidden{display:none}
+#results{margin-top:16px}
+.domain-result{border-left:6px solid var(--accent);padding:10px;margin-bottom:10px}
+.low{border-color:#16a34a}
+.moderate{border-color:#f59e0b}
+.high{border-color:#dc2626}
+.site-footer{padding:16px;text-align:center;color:var(--muted);font-size:0.9rem}
+@media (max-width:600px){.container{padding:12px}}
